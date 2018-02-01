@@ -1,0 +1,1 @@
+export const SET_PAGE_CLASS = 'SET_PAGE_CLASS'
