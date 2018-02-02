@@ -33,7 +33,7 @@ export default {
     },
     submitForm() {
       var self = this;
-      self.$http("http://localhost:3300/login", self.ruleForm2)
+      self.$http.get("login", self.ruleForm2)
         .then(function(res) {
           if(res.success){
             self.$router.push({name: 'acticelist'});
